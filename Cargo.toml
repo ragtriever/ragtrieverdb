@@ -28,5 +28,9 @@ tokio-stream = "0.1.17"
 tracing = "0.1.41"
 tracing-opentelemetry = { version = "0.30.0" }
 tracing-subscriber = { version = "0.3.19", features = ["env-filter", "fmt"] }
+aws-config = { version = "1.6.1", features = ["behavior-version-latest"] }
+aws-sdk-dynamodb = "1.71.0"
+aws-sdk-s3 = "1.82.0"
+
 
 [features]
