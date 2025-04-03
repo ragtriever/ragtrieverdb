@@ -11,7 +11,8 @@
 //!
 //!     cargo run --example load
 
-use ragtrieverdb::{clients::Client, Result};
+use ragtriever::ragtrieverdb::{clients::Client, Result};
+use ratriever::ragtrieverdb::clients::Client;
 use std::time::Instant;
 
 #[tokio::main]

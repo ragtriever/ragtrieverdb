@@ -1,15 +1,8 @@
 [package]
-name = "ragtriever"
+name = "ragtrieverdb"
 version = "0.1.0"
 edition = "2021"
 authors = ["Tyler Kruer tyler@tkruer.com"]
-
-[workspace]
-members = ["crates/api", "crates/db"]
-
-[[bin]]
-name = "ragtriever-api"
-path = "crates/api/src/main.rs"
 
 [[bin]]
 name = "ragtriever-cli"
@@ -37,7 +30,6 @@ tracing-subscriber = { version = "0.3.19", features = ["env-filter", "fmt"] }
 aws-config = { version = "1.6.1", features = ["behavior-version-latest"] }
 aws-sdk-dynamodb = "1.71.0"
 aws-sdk-s3 = "1.82.0"
-axum = "0.8.3"
 
 
 [features]
